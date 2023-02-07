@@ -2,6 +2,7 @@ resource "aws_s3_bucket" "terraform-state" {
     bucket = "terraform-state-nuvolar"
 
     object_lock_enabled = true
+    force_destroy = true
 
     tags = {
         Name = "S3 Remote Terraform State Store"

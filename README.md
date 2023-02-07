@@ -10,4 +10,5 @@
 ## Clean up
 
 1. `cd eks; terraform destroy`
-2. `cd s3-dynamodb-backend; terraform destroy`
+2. Delete files from the bucket
+3. `cd s3-dynamodb-backend; terraform destroy`
