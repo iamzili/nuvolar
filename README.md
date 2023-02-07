@@ -4,7 +4,8 @@
 
 1. set AWS Credentials at `~/.aws/credentials`
 2. `cd s3-dynamodb-backend; terraform init; terraform apply`
-2. `cd eks; terraform init; terraform apply`
+3. Go back to root dir
+4. `cd eks; terraform init; terraform apply`
 
 
 ## Clean up
